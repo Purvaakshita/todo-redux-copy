@@ -13,6 +13,7 @@ export default function User() {
   return (
     <div className="App-User-Row">
       <div>
+        <h3>User Signup Form</h3>
         <p>
           <input
             placeholder="Name"
@@ -35,12 +36,15 @@ export default function User() {
         <button onClick={handleAddUser}>Add User</button>
       </div>
       <div>
+        <h3>User List</h3>
+        <ol>
         {users &&
           users.map((value) => (
             <li>
               {value.name}-{value.email}-{value.pass}
             </li>
           ))}
+          </ol>
       </div>
     </div>
   );

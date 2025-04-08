@@ -5,7 +5,16 @@
 
 .App-User-Row div {
     border: 1px solid gray;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
     border-radius: 20px;
+    width:100%;
+}
+
+.App-User-Row button,input {
+    width: 100%;
+    padding: 10px; 
+    box-sizing: border-box;
+    
+    
 }
