@@ -1,0 +1,11 @@
+.App-User-Row {
+    display: flex;
+    justify-content: center;
+}
+
+.App-User-Row div {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
